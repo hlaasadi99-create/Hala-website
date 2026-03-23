@@ -4,99 +4,155 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ركن حلاوة</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #eaf3ff 0%, #dbeafe 100%);
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .title {
+      color: #163b82;
+      font-size: 42px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #4b5563;
+      max-width: 650px;
+      margin: 0 auto 30px;
+      line-height: 1.9;
+    }
+
+    .profile-img {
+      width: 260px;
+      max-width: 85%;
+      border-radius: 28px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+      margin-top: 10px;
+      margin-bottom: 35px;
+    }
+
+    .buttons {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 14px;
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    .btn-book {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    }
+
+    .btn-quotes {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    }
+
+    .btn-grandpa {
+      background: linear-gradient(135deg, #4b5563, #1f2937);
+    }
+
+    .btn-message {
+      background: linear-gradient(135deg, #0f4cc9, #3b82f6);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 24px;
+      padding: 30px 24px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+      margin-top: 45px;
+    }
+
+    .card h2 {
+      color: #163b82;
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .card p {
+      font-size: 18px;
+      line-height: 2;
+      color: #374151;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      margin-top: 35px;
+      color: #163b82;
+      font-size: 24px;
+    }
+  </style>
 </head>
-<body style="margin:0; font-family:Arial, sans-serif; background-color:#dbeafe; color:#1f2937;">
+<body>
 
-  <div style="max-width:900px; margin:0 auto; padding:40px 20px; text-align:center;">
+  <div class="container">
 
-    <h1 style="color:#1e3a8a; font-size:42px; margin-bottom:10px;">
-      أهلاً بكم في ركن حلاوة 🥰
-    </h1>
+    <h1 class="title">أهلاً بكم في ركن حلاوة 🥰</h1>
 
-    <p style="font-size:20px; max-width:650px; margin:0 auto 30px; line-height:1.8; color:#374151;">
-      مساحة دافئة ومميزة أشارك فيها كلماتي، أفكاري، ومشاريعي بأسلوب يحمل إحساسًا ومعنى.
+    <p class="subtitle">
+      مساحة دافئة ومميزة أشارك فيها كلماتي، أفكاري، وما يمر بين السطور…
+      هنا شيء منّي، وشيء قد يشبهكم أيضًا 💙
     </p>
 
-    <img src="halawa.jpg" width="260"
-      style="border-radius:30px; box-shadow:0 12px 30px rgba(0,0,0,0.18); margin-bottom:30px;">
+    <img src="halawa.jpg" alt="صورتي" class="profile-img">
 
-    <div style="margin-bottom:50px;">
-      <a href="book.html"
-        style="display:inline-block; margin:10px; padding:14px 28px; background-color:#2563eb; color:white; text-decoration:none; border-radius:14px; font-size:17px; box-shadow:0 6px 14px rgba(37,99,235,0.25);">
-        📖 ركن الكتاب
-      </a>
-<div style="
-margin-top:30px;
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;">
-  <a href="grandpa.html" style="
-  background:#374151;
-  color:white;
-  padding:15px 25px;
-  border-radius:12px;
-  text-decoration:none;
-  display:inline-block;
-  ">
-  🕊️ كلمات جدي
-  </a>
+    <div class="buttons">
+      <a href="book.html" class="btn btn-book">📖 ركن الكتاب</a>
+    </div>
 
-  <a href="quotes.html" style="
-  background:#1e3a8a;
-  color:white;
-  padding:15px 25px;
-  border-radius:12px;
-  text-decoration:none;
-  display:inline-block;
-  ">
-  💭 بين السطور
-  </a>
-</div>
-      <br><br>
-      <a href="#about"
-        style="display:inline-block; margin:10px; padding:14px 28px; background-color:white; color:#1e3a8a; text-decoration:none; border-radius:14px; font-size:17px; border:1px solid #bfdbfe; box-shadow:0 6px 14px rgba(0,0,0,0.08);">
-        من أنا
-      </a>
-    <div style="
-justify-content:center;
-gap:15px;
-<br><br>
-
-    <div id="about" style="background-color:white; border-radius:24px; padding:35px 25px; box-shadow:0 10px 25px rgba(0,0,0,0.08); margin-bottom:25px; text-align:right;">
-      <h2 style="color:#1e3a8a; font-size:30px; margin-top:0;">من أنا 💙</h2>
-      <p style="font-size:18px; line-height:2; color:#374151;">
+    <div id="about" class="card">
+      <h2>من أنا 💙</h2>
+      <p>
         أنا حلاوة، وهذه مساحتي الخاصة التي أعبّر فيها عن أفكاري، كتاباتي، وكل ما يمر بين السطور.
         أحب أن أترك في الكلمات أثرًا، وفي الفكرة عمقًا، وفي المحتوى لمسة مختلفة.
       </p>
-      <p style="font-size:18px; line-height:2; color:#374151; margin-bottom:0;">
-        هذا الموقع ليس مجرد صفحة، بل نافذة أشارك من خلالها صوتي، رؤيتي، ومشروعي الإبداعي الذي يكبر خطوة بخطوة.
-      </p>
     </div>
-    <div style="background-color:white; border-radius:24px; padding:35px 25px; box-shadow:0 10px 25px rgba(0,0,0,0.08); text-align:right;">
-     <div style="text-align:center; margin-top:40px;">
 
-<h2>💌 رسالة من القلب</h2>
+    <div class="buttons">
+      <a href="quotes.html" class="btn btn-quotes">💭 بين السطور</a>
+      <a href="grandpa.html" class="btn btn-grandpa">🕊️ كلمات جدي</a>
+    </div>
 
-<p>إذا وصلك شعور من كلماتي… اكتب لي 💙</p>
-
-<a href="https://forms.gle/rUx8JaEHVtxRCnu7A" target="_blank" style="
-background:#1e3a8a;
-color:white;
-padding:12px 25px;
-border-radius:12px;
-text-decoration:none;
-display:inline-block;
-margin-top:10px;
-">
-اكتب لي رسالة
-</a>
-
-</div>
-      <h2 style="color:#1e3a8a; font-size:30px; margin-top:0;">لمحة سريعة ✨</h2>
-      <p style="font-size:18px; line-height:2; color:#374151; margin-bottom:0;">
-        هنا تجدون مقتطفات، خواطر، أفكارًا متجددة، ومساحة تنمو فيها الكتابة بهدوء وأناقة.
+    <div class="card">
+      <h2>💌 رسالة من القلب</h2>
+      <p>
+        إذا وصلك شعور من كلماتي… اترك لي رسالة، فقد تصلني كلمة واحدة في الوقت الذي أحتاجها فيه.
       </p>
+
+      <div class="buttons">
+        <a href="https://forms.gle/rUx8JaEHVtxRCnu7A" target="_blank" class="btn btn-message">اكتب لي رسالة</a>
+      </div>
     </div>
 
   </div>
